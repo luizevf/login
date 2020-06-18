@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
+    <style>
+
+        body{
+            background-image: url("https://cdn2.f-cdn.com/contestentries/1490804/32875450/5cbfe247369ee_thumb900.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            
+        }
+       
+        h2{
+            padding:50px;
+        }
+
+        a{
+            font-size: 15px;
+        }
+
+        input{
+            border:30px;
+        
+          
+            ;
+        }
+
+        p {
+            font-weight: bold;
+
+        }
+  #login, #form  {
+       
+        text-align:center;
+ 
+    }
+    
+    </style>
+
+    <script>
+        function validar()
+        {
+        var usuario = document.getElementById("uname");
+        var senha = document.getElementById("pass");
+
+        if (usuario.value == "" || senha.value == "")
+
+        {
+            alert("Erro: campo vazio");
+            }  
+
+            else{
+
+            }
+
+        }
+
+    </script>
+</head>
+<body>
+    <div id="login">
+    <h2>Área de membros</h2>
+
+    <div class="form">
+    
+    <p>Usuário</p>
+    <input id= "uname" type="text" name="" placeholder="Insira o nome de usuário"  >
+
+    <p>Senha</p>
+    <input id="pass" type="password" name="" placeholder="Insira a sua senha">
+   <br>
+    <br>
+
+    <input type="submit" name="" value="login" onclick="validar()">
+    <p></p>
+    <p></p>
+    <a href="#">Esqueci minha senha</a>
+    <br>
+    <br>
+    <a href="#"> Não possuo uma conta</a>
+</div>
+</div>
+
+</body>
+</html>
